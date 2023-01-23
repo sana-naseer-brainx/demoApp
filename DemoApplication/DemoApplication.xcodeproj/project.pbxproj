@@ -7,38 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043103E9297960C400BA0475 /* Gilroy-FREE in Resources */ = {isa = PBXBuildFile; fileRef = 043103E8297960C400BA0475 /* Gilroy-FREE */; };
+		043103ED2979645800BA0475 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043103EC2979645800BA0475 /* DataSource.swift */; };
 		04D4979D29792AA200F5415C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4979C29792AA200F5415C /* AppDelegate.swift */; };
 		04D4979F29792AA200F5415C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4979E29792AA200F5415C /* SceneDelegate.swift */; };
 		04D497A129792AA200F5415C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D497A029792AA200F5415C /* ViewController.swift */; };
 		04D497A429792AA200F5415C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D497A229792AA200F5415C /* Main.storyboard */; };
 		04D497A629792AA300F5415C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D497A529792AA300F5415C /* Assets.xcassets */; };
 		04D497A929792AA300F5415C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D497A729792AA300F5415C /* LaunchScreen.storyboard */; };
-		04D497B429792AA400F5415C /* DemoApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D497B329792AA400F5415C /* DemoApplicationTests.swift */; };
-		04D497BE29792AA400F5415C /* DemoApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D497BD29792AA400F5415C /* DemoApplicationUITests.swift */; };
-		04D497C029792AA400F5415C /* DemoApplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D497BF29792AA400F5415C /* DemoApplicationUITestsLaunchTests.swift */; };
-		04D497D32979527400F5415C /* Gilroy-FREE in Resources */ = {isa = PBXBuildFile; fileRef = 04D497D22979527400F5415C /* Gilroy-FREE */; };
-		04D497D5297955E800F5415C /* Gilroy-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04D497D4297955E800F5415C /* Gilroy-ExtraBold.otf */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		04D497B029792AA400F5415C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04D4979129792AA200F5415C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04D4979829792AA200F5415C;
-			remoteInfo = DemoApplication;
-		};
-		04D497BA29792AA400F5415C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04D4979129792AA200F5415C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04D4979829792AA200F5415C;
-			remoteInfo = DemoApplication;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		04D4979929792AA200F5415C /* Gilroy-Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gilroy-Light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043103E8297960C400BA0475 /* Gilroy-FREE */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Gilroy-FREE"; path = "DemoApplication/Gilroy-FREE"; sourceTree = "<group>"; };
+		043103EC2979645800BA0475 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		04D4979929792AA200F5415C /* DemoApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D4979C29792AA200F5415C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D4979E29792AA200F5415C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04D497A029792AA200F5415C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,32 +28,11 @@
 		04D497A529792AA300F5415C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D497A829792AA300F5415C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D497AA29792AA300F5415C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04D497AF29792AA400F5415C /* Gilroy-LightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gilroy-LightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04D497B329792AA400F5415C /* DemoApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApplicationTests.swift; sourceTree = "<group>"; };
-		04D497B929792AA400F5415C /* Gilroy-LightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gilroy-LightUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04D497BD29792AA400F5415C /* DemoApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApplicationUITests.swift; sourceTree = "<group>"; };
-		04D497BF29792AA400F5415C /* DemoApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		04D497CF2979366E00F5415C /* DemoApplication.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = DemoApplication.xcodeproj; sourceTree = "<group>"; };
-		04D497D22979527400F5415C /* Gilroy-FREE */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Gilroy-FREE"; path = "../../../Downloads/Gilroy-FREE"; sourceTree = "<group>"; };
-		04D497D4297955E800F5415C /* Gilroy-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-ExtraBold.otf"; path = "../../../Downloads/Gilroy-FREE/Gilroy-ExtraBold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		04D4979629792AA200F5415C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04D497AC29792AA400F5415C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04D497B629792AA400F5415C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,11 +45,8 @@
 		04D4979029792AA200F5415C = {
 			isa = PBXGroup;
 			children = (
-				04D497D4297955E800F5415C /* Gilroy-ExtraBold.otf */,
-				04D497D22979527400F5415C /* Gilroy-FREE */,
+				043103E8297960C400BA0475 /* Gilroy-FREE */,
 				04D4979B29792AA200F5415C /* DemoApplication */,
-				04D497B229792AA400F5415C /* DemoApplicationTests */,
-				04D497BC29792AA400F5415C /* DemoApplicationUITests */,
 				04D4979A29792AA200F5415C /* Products */,
 				04D497CE2979366E00F5415C /* Frameworks */,
 			);
@@ -97,9 +55,7 @@
 		04D4979A29792AA200F5415C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04D4979929792AA200F5415C /* Gilroy-Light.app */,
-				04D497AF29792AA400F5415C /* Gilroy-LightTests.xctest */,
-				04D497B929792AA400F5415C /* Gilroy-LightUITests.xctest */,
+				04D4979929792AA200F5415C /* DemoApplication.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,27 +68,11 @@
 				04D497A029792AA200F5415C /* ViewController.swift */,
 				04D497A229792AA200F5415C /* Main.storyboard */,
 				04D497A529792AA300F5415C /* Assets.xcassets */,
+				043103EC2979645800BA0475 /* DataSource.swift */,
 				04D497A729792AA300F5415C /* LaunchScreen.storyboard */,
 				04D497AA29792AA300F5415C /* Info.plist */,
 			);
 			path = DemoApplication;
-			sourceTree = "<group>";
-		};
-		04D497B229792AA400F5415C /* DemoApplicationTests */ = {
-			isa = PBXGroup;
-			children = (
-				04D497B329792AA400F5415C /* DemoApplicationTests.swift */,
-			);
-			path = DemoApplicationTests;
-			sourceTree = "<group>";
-		};
-		04D497BC29792AA400F5415C /* DemoApplicationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				04D497BD29792AA400F5415C /* DemoApplicationUITests.swift */,
-				04D497BF29792AA400F5415C /* DemoApplicationUITestsLaunchTests.swift */,
-			);
-			path = DemoApplicationUITests;
 			sourceTree = "<group>";
 		};
 		04D497CE2979366E00F5415C /* Frameworks */ = {
@@ -151,9 +91,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04D4979829792AA200F5415C /* Gilroy-Light */ = {
+		04D4979829792AA200F5415C /* DemoApplication */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04D497C329792AA400F5415C /* Build configuration list for PBXNativeTarget "Gilroy-Light" */;
+			buildConfigurationList = 04D497C329792AA400F5415C /* Build configuration list for PBXNativeTarget "DemoApplication" */;
 			buildPhases = (
 				04D4979529792AA200F5415C /* Sources */,
 				04D4979629792AA200F5415C /* Frameworks */,
@@ -163,45 +103,10 @@
 			);
 			dependencies = (
 			);
-			name = "Gilroy-Light";
+			name = DemoApplication;
 			productName = DemoApplication;
-			productReference = 04D4979929792AA200F5415C /* Gilroy-Light.app */;
+			productReference = 04D4979929792AA200F5415C /* DemoApplication.app */;
 			productType = "com.apple.product-type.application";
-		};
-		04D497AE29792AA400F5415C /* Gilroy-LightTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04D497C629792AA400F5415C /* Build configuration list for PBXNativeTarget "Gilroy-LightTests" */;
-			buildPhases = (
-				04D497AB29792AA400F5415C /* Sources */,
-				04D497AC29792AA400F5415C /* Frameworks */,
-				04D497AD29792AA400F5415C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04D497B129792AA400F5415C /* PBXTargetDependency */,
-			);
-			name = "Gilroy-LightTests";
-			productName = DemoApplicationTests;
-			productReference = 04D497AF29792AA400F5415C /* Gilroy-LightTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		04D497B829792AA400F5415C /* Gilroy-LightUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04D497C929792AA400F5415C /* Build configuration list for PBXNativeTarget "Gilroy-LightUITests" */;
-			buildPhases = (
-				04D497B529792AA400F5415C /* Sources */,
-				04D497B629792AA400F5415C /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04D497BB29792AA400F5415C /* PBXTargetDependency */,
-			);
-			name = "Gilroy-LightUITests";
-			productName = DemoApplicationUITests;
-			productReference = 04D497B929792AA400F5415C /* Gilroy-LightUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -216,17 +121,9 @@
 					04D4979829792AA200F5415C = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					04D497AE29792AA400F5415C = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 04D4979829792AA200F5415C;
-					};
-					04D497B829792AA400F5415C = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 04D4979829792AA200F5415C;
-					};
 				};
 			};
-			buildConfigurationList = 04D4979429792AA200F5415C /* Build configuration list for PBXProject "Gilroy-Light" */;
+			buildConfigurationList = 04D4979429792AA200F5415C /* Build configuration list for PBXProject "DemoApplication" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -245,9 +142,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				04D4979829792AA200F5415C /* Gilroy-Light */,
-				04D497AE29792AA400F5415C /* Gilroy-LightTests */,
-				04D497B829792AA400F5415C /* Gilroy-LightUITests */,
+				04D4979829792AA200F5415C /* DemoApplication */,
 			);
 		};
 /* End PBXProject section */
@@ -257,18 +152,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D497D32979527400F5415C /* Gilroy-FREE in Resources */,
+				043103E9297960C400BA0475 /* Gilroy-FREE in Resources */,
 				04D497A929792AA300F5415C /* LaunchScreen.storyboard in Resources */,
-				04D497D5297955E800F5415C /* Gilroy-ExtraBold.otf in Resources */,
 				04D497A629792AA300F5415C /* Assets.xcassets in Resources */,
 				04D497A429792AA200F5415C /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04D497AD29792AA400F5415C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,41 +168,12 @@
 			files = (
 				04D497A129792AA200F5415C /* ViewController.swift in Sources */,
 				04D4979D29792AA200F5415C /* AppDelegate.swift in Sources */,
+				043103ED2979645800BA0475 /* DataSource.swift in Sources */,
 				04D4979F29792AA200F5415C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04D497AB29792AA400F5415C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04D497B429792AA400F5415C /* DemoApplicationTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04D497B529792AA400F5415C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04D497C029792AA400F5415C /* DemoApplicationUITestsLaunchTests.swift in Sources */,
-				04D497BE29792AA400F5415C /* DemoApplicationUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		04D497B129792AA400F5415C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04D4979829792AA200F5415C /* Gilroy-Light */;
-			targetProxy = 04D497B029792AA400F5415C /* PBXContainerItemProxy */;
-		};
-		04D497BB29792AA400F5415C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04D4979829792AA200F5415C /* Gilroy-Light */;
-			targetProxy = 04D497BA29792AA400F5415C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		04D497A229792AA200F5415C /* Main.storyboard */ = {
@@ -460,8 +318,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DemoApplication/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -487,8 +347,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DemoApplication/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -505,82 +367,10 @@
 			};
 			name = Release;
 		};
-		04D497C729792AA400F5415C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.brainx.DemoApplicationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gilroy-Light.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gilroy-Light";
-			};
-			name = Debug;
-		};
-		04D497C829792AA400F5415C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.brainx.DemoApplicationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gilroy-Light.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gilroy-Light";
-			};
-			name = Release;
-		};
-		04D497CA29792AA400F5415C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.brainx.DemoApplicationUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DemoApplication;
-			};
-			name = Debug;
-		};
-		04D497CB29792AA400F5415C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.brainx.DemoApplicationUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DemoApplication;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04D4979429792AA200F5415C /* Build configuration list for PBXProject "Gilroy-Light" */ = {
+		04D4979429792AA200F5415C /* Build configuration list for PBXProject "DemoApplication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04D497C129792AA400F5415C /* Debug */,
@@ -589,29 +379,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04D497C329792AA400F5415C /* Build configuration list for PBXNativeTarget "Gilroy-Light" */ = {
+		04D497C329792AA400F5415C /* Build configuration list for PBXNativeTarget "DemoApplication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04D497C429792AA400F5415C /* Debug */,
 				04D497C529792AA400F5415C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		04D497C629792AA400F5415C /* Build configuration list for PBXNativeTarget "Gilroy-LightTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04D497C729792AA400F5415C /* Debug */,
-				04D497C829792AA400F5415C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		04D497C929792AA400F5415C /* Build configuration list for PBXNativeTarget "Gilroy-LightUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04D497CA29792AA400F5415C /* Debug */,
-				04D497CB29792AA400F5415C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
