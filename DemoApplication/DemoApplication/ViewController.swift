@@ -8,6 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    var obj = CustomizedCellTableViewCell();
+    
+   
+    
 //
 //    var images1 = []
 //    var images2 = ["Red"]
@@ -29,6 +33,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     override func viewDidLoad() {
         super.viewDidLoad()
+      //  obj.starLabelContainer.backgroundColor = UIColor.red
         
         tableView.delegate = self
         tableView.dataSource = self
