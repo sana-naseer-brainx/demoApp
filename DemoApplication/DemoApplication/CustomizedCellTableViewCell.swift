@@ -9,6 +9,8 @@ import UIKit
 
 class CustomizedCellTableViewCell: UITableViewCell {
 
+    @IBOutlet var paddingViewOutlet: UIView!
+    @IBOutlet var contentViewOutlet: UIView!
     @IBOutlet var profileImageView: UIImageView!
     
     @IBOutlet var profileLabel: UILabel!
@@ -27,15 +29,21 @@ class CustomizedCellTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
         pythonView.layer.cornerRadius = 4;
         groupContainer.layer.cornerRadius = 4;
-        starLabelContainer.layer.cornerRadius = 10;
-        //groupContainer.backgroundColor = #F8F8F8;
-        //view.layer.masksToBounds = true;
+        starLabelContainer.layer.cornerRadius = 12.8;
+        groupContainer.layer.cornerRadius = 12.6;
+        
+        paddingViewOutlet.layer.cornerRadius = 15
+        paddingViewOutlet.layer.borderColor = UIColorFromHex(rgbValue: 0x16321F).cgColor
+        paddingViewOutlet.layer.borderWidth = 1
+        
         
         profileImageView.image = UIImage(named: "Image");
         starLabelContainer.backgroundColor = UIColorFromHex(rgbValue: 0xF8F8F8, alpha: 1.0)
-       // starLabelContainer.backgroundColor = UIColorFromHex(0x323232,alpha: 1);
+        groupContainer.backgroundColor = UIColorFromHex(rgbValue: 0xF8F8F8, alpha: 1.0)
+     
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

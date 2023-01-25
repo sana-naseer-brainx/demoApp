@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		043103E9297960C400BA0475 /* Gilroy-FREE in Resources */ = {isa = PBXBuildFile; fileRef = 043103E8297960C400BA0475 /* Gilroy-FREE */; };
-		043103ED2979645800BA0475 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043103EC2979645800BA0475 /* DataSource.swift */; };
 		04A66B6F297FC9D00028076F /* CustomizedCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A66B6E297FC9D00028076F /* CustomizedCellTableViewCell.swift */; };
 		04D4979D29792AA200F5415C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4979C29792AA200F5415C /* AppDelegate.swift */; };
 		04D4979F29792AA200F5415C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4979E29792AA200F5415C /* SceneDelegate.swift */; };
@@ -20,7 +19,6 @@
 
 /* Begin PBXFileReference section */
 		043103E8297960C400BA0475 /* Gilroy-FREE */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Gilroy-FREE"; path = "DemoApplication/Gilroy-FREE"; sourceTree = "<group>"; };
-		043103EC2979645800BA0475 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		04A66B6E297FC9D00028076F /* CustomizedCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedCellTableViewCell.swift; sourceTree = "<group>"; };
 		04D4979929792AA200F5415C /* DemoApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D4979C29792AA200F5415C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 				04D497A229792AA200F5415C /* Main.storyboard */,
 				04A66B6E297FC9D00028076F /* CustomizedCellTableViewCell.swift */,
 				04D497A529792AA300F5415C /* Assets.xcassets */,
-				043103EC2979645800BA0475 /* DataSource.swift */,
 				04D497A729792AA300F5415C /* LaunchScreen.storyboard */,
 				04D497AA29792AA300F5415C /* Info.plist */,
 			);
@@ -172,7 +169,6 @@
 				04D497A129792AA200F5415C /* ViewController.swift in Sources */,
 				04A66B6F297FC9D00028076F /* CustomizedCellTableViewCell.swift in Sources */,
 				04D4979D29792AA200F5415C /* AppDelegate.swift in Sources */,
-				043103ED2979645800BA0475 /* DataSource.swift in Sources */,
 				04D4979F29792AA200F5415C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
